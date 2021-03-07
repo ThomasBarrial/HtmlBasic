@@ -1,1 +1,95 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+}
 
+ul{
+    list-style: none;
+}
+
+/*  ---Reset FIN---  */
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Header {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    color: rgb(238, 238, 238);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+ul li {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.Fell {
+    background-color: rgb(238, 238, 238);
+    color: grey;
+    border: 1px solid grey;
+}
+
+.carousel {
+    background-color: rgb(238, 238, 238);;
+    height: 250px;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(121, 121, 121);
+    Margin: 30px;
+}
+
+.Articles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.post {
+    width: 30%;
+    background-color:  rgb(238, 238, 238);
+    height: 250px;
+}
+
+.Form {
+    border-top: 1px solid grey;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+
+.Form h2 {
+    margin-top: 20px;
+    color: rgb(121, 121, 121);;
+}
+
+.Input {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+input {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    margin-bottom: 10px;
+    color: grey;
+}
+
+textarea {
+    height: 100px;
+}
